@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caprasimo&family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Caprasimo&family=Inter&family=Karla:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #1F2937;
+    font-family: Karla;
+    line-height: 1.8em;
+}
+h2 {
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px; 
+
+}
+span { 
+    color: #4ADF86; 
+    line-height: 40px;
+    letter-spacing: -1px; 
+
+}
+p {
+    color: #D5D4D8;
+    margin-top: 6px;
+    margin-left: 50px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+button {
+    border: none;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    background-color:  #10B981; 
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: normal;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+
+}
+button:hover {
+    background-color:  #4ADF86; 
+    opacity: 80%;
+    transition: 0.5s;
+}
+hr {
+    background: #2F3E53;
+    
+}
+input {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 6px;
+    background: #273549;
+    color: #4ADF86; 
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 211px;
+    height: 39px; 
+    display: block;
+
+}
+.input-btn-1:hover {
+    color: #4ADF86; 
+    opacity: 80%;
+    transition: 0.5s;
+}
+.input-btn-1:hover {
+    transition: 0.6s;
+    background: #2F3E53;
+
+    opacity: 80%;
+}
+/* .copy-icon {
+    position: relative; 
+    left: -40px;
+    cursor: pointer;
+    width: 200px;
+} */
