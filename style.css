@@ -49,15 +49,15 @@ button {
     font-family: Inter;
     font-weight: 400;
     line-height: 24px;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-style: normal;
+    height: 50px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 
 
 }
 button:hover {
-    background-color:  #4ADF86; 
-    opacity: 80%;
+    background-color:  #4adc85; 
     transition: 0.5s;
 }
 hr {
@@ -68,31 +68,27 @@ input {
     border: none;
     padding: 7px 10px;
     border-radius: 6px;
-    background: #273549;
-    color: #4ADF86; 
+    background: white;
+    color: black; 
     margin-top: 30px;
     margin-left: 50px;
     text-decoration: none;
     cursor: pointer;
-    width: 211px;
-    height: 39px; 
+    width: 450px;
+    height: 60px; 
     display: block;
+    font-size: 1.5rem;
 
 }
-.input-btn-1:hover {
-    color: #4ADF86; 
-    opacity: 80%;
-    transition: 0.5s;
-}
-.input-btn-1:hover {
-    transition: 0.6s;
-    background: #2F3E53;
 
-    opacity: 80%;
-}
-/* .copy-icon {
+.copy-icon {
     position: relative; 
-    left: -40px;
     cursor: pointer;
-    width: 200px;
-} */
+    width: 35px;
+    left: 180px;
+    bottom: 72px;
+}
+
+.copy-icon:hover {
+    background-image: url(./copy-solid.svg);
+}

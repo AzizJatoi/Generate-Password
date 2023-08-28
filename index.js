@@ -3,13 +3,20 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "n","o","p","q","r","s","t","u","v","w","x","y","z", "0", "1", "2", "3", "4", "5", "6", "7",
  "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",",
  "|",":",";","<",">",".","?","/"];
+
 let passwordBox = document.getElementById("password")
-const length = 15
-function createPassword () {
-    let password = ""
-    password += characters[Math.floor(Math.random() * characters.length)];
-    while (length > password.length) {
-        password += characters[Math.floor(Math.random() * characters.length)];
+const length = 15 
+ 
+function createPassword() {
+    let password = "" 
+    password += characters[Math.floor(Math.random() * characters.length)]
+    while ( length > password.length) {
+    password += characters[Math.floor(Math.random() * characters.length)]
+        
     }
-    passwordBox.value = password    
+    passwordBox.value = password
+}
+function copyPassword() {
+    password.select() 
+    document.execCommand("copy")
 }
